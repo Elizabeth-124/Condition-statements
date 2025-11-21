@@ -1,9 +1,6 @@
-score=int(input("Enter your score"))
-if score<=39:
-    print("you have failed")
-elif score <= 49:
-    print("Your grade is D")
-elif score <= 59:
-    print("Your grade is C")
-elif score <=70:
-    print("Your grade is A")
+its_raining=True
+has_money=False
+if its_raining or has_money:
+    print("Go to the cinema")
+else:
+    print("Stay at home,Read a book")
